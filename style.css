@@ -1,0 +1,28 @@
+body {
+	width: 300px;
+	height: 400px;
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.9),
+			rgba(255, 255, 255, 0.9)
+		),
+		url("./images/background.jpg");
+	background-size: cover;
+
+	background-repeat: repeat;
+	border-radius: 6px;
+	border: 5px solid rgb(38, 31, 31);
+	display: flex;
+	justify-content: center;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: auto 10px;
+	font-family: "Roboto Slab", serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: black;
+	padding: 10px;
+}

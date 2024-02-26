@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Dev Jokes",
+    "version": "1.0",
+    "description": "Generates Programming Jokes.",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "images/chrome512.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
